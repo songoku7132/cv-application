@@ -1,3 +1,38 @@
-h1 {
-  color: red;
+.main {
+  /* border: 2px solid black; */
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+.general-info {
+  border: 2px solid black;
+  grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.education {
+  border: 2px solid black;
+  grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.experience {
+  border: 2px solid black;
+  grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.cv-example {
+  border: 2px solid black;
+  grid-column: 2/3;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
